@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main-page {
+  color: #90ee90;
+  background-color: #333333;
+  font-size: 24px;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333333; /* Dark grey */
+  color: #90ee90;
+}
+.brand-name {
+  font-family: "Arial", sans-serif; /* Use a web-safe font or import a custom font */
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold; /* Make the logo text bold */
+  padding: 10px 20px; /* Adds padding around the text */
+  text-decoration: none; /* Removes underline from link */
+  display: flex;
+  align-items: center; /* Vertically center text in the navbar */
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 50vw;
+}
+a {
+  text-decoration: none;
+  color: #90ee90;
+}
+.navlist {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("hero1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.hero-content {
+  margin-top: 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-button {
+  padding: 12px 20px;
+  background-color: #333333;
+  color: #90ee90;
+  border-radius: 5px;
+}
+
+.contact-lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-lists ul {
+  list-style-type: none;
+}
